@@ -8,7 +8,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'ubuntu-latest' #it's pulling from Ubuntu image
 
 steps:
 - script: echo Hello, world!
